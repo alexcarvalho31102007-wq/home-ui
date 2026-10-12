@@ -76,7 +76,7 @@ jobs:
 
       - name: Compilar Aplicativo (assembleRelease)
         run: |
-          gradle assembleRelease --parallel --build-cache -x lint -x lintVitalRelease -x test
+          gradle assembleRelease --parallel --build-cache -x lint -x test
 
       - name: Assinar e Preparar APK Release Final
         run: |
